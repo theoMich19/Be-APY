@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
-import './components/HomePage.js';
-import './components/DashBoardPage.js';
-import './components/InformPage.js';
-import './components/HighScoresPage.js';
+import {HomePage} from './components/HomePage.js';
+import {DashBoardPage} from './components/DashBoardPage.js';
+import {InformPage} from './components/InformPage.js';
+import {HighScoresPage} from './components/HighScoresPage.js';
 
 function App() {
   return (
