@@ -1,9 +1,9 @@
+import NavigationBar from "./NavigationBar"
+
 export const HomePage = () => {
     return (
        <div>
-           <h1>HomePage</h1>
+           <NavigationBar></NavigationBar>
        </div>
     )
-   
-   }
-   
+}

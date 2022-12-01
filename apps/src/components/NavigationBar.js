@@ -1,11 +1,10 @@
-const NavigationBar = () => {
+export default function NavigationBar() {
+
     return (
-       <div>
-           <h1>NavigationBar</h1>
-       </div>
-    )
-   
-   }
-   
-   
-export default NavigationBar
+            <div className="navBar">
+                <button>S'informer</button>
+                <button>Jouer</button>
+                <button>Statistiques</button>
+            </div>
+        )
+}
