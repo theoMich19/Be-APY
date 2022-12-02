@@ -1,7 +1,7 @@
 import "./TextImputReponse.css"
 const TextImputReponse = () => {
     return (
-       <div >
+       <div className="textInput">
            <input type="text" className="inputQuestion"/>
        </div>
     )
