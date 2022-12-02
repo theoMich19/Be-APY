@@ -1,6 +1,6 @@
 .highScorePage{
     height: 100%;
-    background-color: #604897;
+    background-color: var(--purple);
 }
 
 .itemHightScoreAll{
@@ -10,9 +10,22 @@
     align-items: center;
 }
 
-.itemHightScore {
-    background-color: #604897;
-    width: 75%;
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.itemIndice{
+    
+}
+
+.itemInfo {
+    background-color: var(--purple);
+    width: 100%;
     color: #fff;
     font-size: 20px;
     font-weight: bold;

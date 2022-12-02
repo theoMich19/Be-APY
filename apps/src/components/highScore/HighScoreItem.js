@@ -1,7 +1,12 @@
 const HighScoreItem = () => {
     return (
-       <div className="itemHightScore">
-           Name, Score, chrono
+       <div className="item">
+            <div>
+               #1
+            </div>
+            <div className="itemInfo">
+                 Name, Score, chrono
+            </div>
        </div>
     )
    
