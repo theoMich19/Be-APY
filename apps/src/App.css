@@ -49,3 +49,8 @@
   min-height: 100vh;
   overflow: hidden;
 }
+
+
+h1{
+  padding: 30px;
+}
