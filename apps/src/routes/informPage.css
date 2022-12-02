@@ -1,0 +1,35 @@
+.App{
+ background: #544293;   
+}
+
+.h1Informer{
+    font-size: 80px;
+}
+
+.CategoryColumn{
+ display: flex;
+ height: 80vh;
+ width: 90vw;
+ margin: auto;
+ justify-content: center;
+ flex-direction: column;
+}
+.CategoryLine{
+    display: flex;
+    flex-direction: row;
+}
+.largeCell{
+    width: 66%;
+    background-color: #FECA21;
+    margin: 15px;
+}
+.shortCell{
+    width: 33%;
+    background-color: #FECA21;
+    margin: 15px;
+}
+.fullCell{
+    width: 100%;
+    background-color: #FECA21;
+    margin: 15px;
+}

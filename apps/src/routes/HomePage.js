@@ -1,6 +1,6 @@
 import BtnHomepage from '../components/BtnHomepage'
 import homePage from './homePage.css'
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import Mascotte from '../img/mascotte.png'
 import Menu from '../img/menu.png'
 import NavigationBar from '../components/NavigationBar/NavigationBar'
