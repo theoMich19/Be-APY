@@ -13,7 +13,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/InformPage/" element={<InformPage />} />
             <Route path="/DashBoardPage/" element={<DashBoardPage />} />
-            <Route path="/HighScoresPage/" element={<HighScoresPage />} />
+            <Route path="/HighScores/" element={<HighScoresPage />} />
           </Routes>
         </BrowserRouter>
     </div>
