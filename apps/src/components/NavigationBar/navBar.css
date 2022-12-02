@@ -2,6 +2,20 @@
     width: 20em;
     background-color: #3B2E67;
     min-height: 100vh;
+<<<<<<< HEAD
+=======
+    animation-name: close;
+    animation-duration: 0.2s;
+}
+
+@keyframes close {
+    0% { transform: translate(-300px, 0); -webkit-transform: translate(-300px, 0); -moz-transform: translate(-300px, 0); -ms-transform: translate(-300px, 0); -o-transform: translate(-300px, 0); }
+    20% { transform: translate(-250px, 0); -webkit-transform: translate(-250px, 0); -moz-transform: translate(-250px, 0); -ms-transform: translate(-250px, 0); -o-transform: translate(-250px, 0); }
+    40% { transform: translate(-200px, 0); -webkit-transform: translate(-200px, 0); -moz-transform: translate(-200px, 0); -ms-transform: translate(-200px, 0); -o-transform: translate(-200px, 0); }
+    60% { transform: translate(-150px, 0); -webkit-transform: translate(-150px, 0); -moz-transform: translate(-150px, 0); -ms-transform: translate(-150px, 0); -o-transform: translate(-150px, 0); }
+    80% { transform: translate(-100px, 0); -webkit-transform: translate(-100px, 0); -moz-transform: translate(-100px, 0); -ms-transform: translate(-100px, 0); -o-transform: translate(-100px, 0); }
+    100% { transform: translate(0, 0); -webkit-transform: translate(0, 0); -moz-transform: translate(0, 0); -ms-transform: translate(0, 0); -o-transform: translate(0, 0); }
+>>>>>>> bd3a2fb14e7436625ce8c0e6856c980bdce51254
 }
 
 
@@ -15,7 +29,8 @@ button {
     font-size: 2em;
     background: none;
     border: none;
-    color: white
+    color: white;
+    text-decoration: none;
 }
 
 .access {
@@ -27,9 +42,21 @@ button {
     flex: none;
     margin-left: 3em;
     animation-duration: 2s;
+    animation-name: wesh;
+    animation-duration: 4s;
+    background: none;
+    border: none;
 }
 
 .dalt {
     margin-bottom: 5em;
 }
 
+<<<<<<< HEAD
+=======
+.buttons a{
+    text-decoration-line: none;
+    color: white;
+    -moz-text-decoration-line: none;
+}
+>>>>>>> bd3a2fb14e7436625ce8c0e6856c980bdce51254

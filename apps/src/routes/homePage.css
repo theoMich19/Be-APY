@@ -13,6 +13,7 @@
     font-weight: bolder;
     font-size: var(--btnFont);
     margin: auto;
+    height: initial;
 }
 
 .screen{
@@ -32,7 +33,7 @@
     max-width: 70vw;
     color: white;
     font-size: 28px;
-    margin: 15vh auto;
+    margin: 2em auto;
     position: relative;
 }
 
@@ -48,10 +49,15 @@
     position: absolute;
     top: 0;
     left: 0;
+<<<<<<< HEAD
     -ms-transform: rotate(270deg);
 	-moz-transform: rotate(270deg);
 	-webkit-transform: rotate(270deg);
 	transform: rotate(270deg);
+=======
+    background: none;
+    border: none;
+>>>>>>> bd3a2fb14e7436625ce8c0e6856c980bdce51254
 }
 
 

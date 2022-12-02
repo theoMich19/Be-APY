@@ -21,12 +21,25 @@
 .largeCell{
     width: 66%;
     background-color: #FECA21;
+    padding: 30px;
     margin: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .shortCell{
     width: 33%;
     background-color: #FECA21;
+    padding: 30px;
     margin: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 .fullCell{
     width: 100%;
@@ -51,10 +64,13 @@
 .textCard{
     width: 70vw;
     margin: auto;
+    font-size: 25px;
 }
 
 .cardDiv{
     display: flex;
     align-items: center;
     height: 70vh;
+    background: white;
+    border-radius: 20px;
 }
