@@ -1,5 +1,6 @@
 import './navBar.css'
 import close from '../../img/close.png'
+import { Link } from 'react-router-dom';
 
 export default function NavigationBar(props) {
 
@@ -7,11 +8,13 @@ export default function NavigationBar(props) {
             <div className="navBar">
                 <button className='closeBtn'><img src={close} alt="menu burger" onClick={() => props.isVisible(false)} /></button>
                 <div className="">
-                    <button>Se renseigner</button>
-                    <button>Statistiques</button>
+                    <Link to="/InformPage">Se renseigner</Link>
+                    <br></br>
+                    <br></br>
+                    <Link to="/DashBoardPage">Statistiques</Link>
                 <div className='dalt'>
                     <p className='access'>ACCESSIBILITÉ</p>
-                    <button>Colorimétrie</button>
+                    <Link to="/">Colorimétrie</Link>
                 </div>
                 </div>
             </div>

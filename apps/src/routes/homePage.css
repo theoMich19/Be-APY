@@ -13,6 +13,7 @@
     font-weight: bolder;
     font-size: var(--btnFont);
     margin: auto;
+    height: initial;
 }
 
 .screen{
@@ -48,6 +49,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    background: none;
+    border: none;
 }
 
 .navBar{
