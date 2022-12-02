@@ -1,6 +1,9 @@
 :root{
   --yellow: #FECA21;
   --purple: #544293;
+  --purpleButtonPass: #AF97DF;
+  --pinkButtonAbandon: #E83B6F;
+  --greenButtonValider: #41AF6B;
 }
 
 .App {

@@ -1,0 +1,8 @@
+.buttonQuestionPass{
+    background-color: var(--purpleButtonPass);
+    width: 15%;
+    border: hidden;
+    padding: 0.5em;
+    font-weight: bold;
+    font-family: Mulish;
+}

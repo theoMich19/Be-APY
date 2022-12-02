@@ -1,0 +1,8 @@
+.buttonQuestionValider{
+    background-color: var(--greenButtonValider);
+    border: hidden;
+    padding: 0.5em;
+    font-weight: bold;
+    font-family: Mulish;
+    width: 15%;
+}
