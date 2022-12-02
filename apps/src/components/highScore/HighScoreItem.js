@@ -21,7 +21,7 @@ const HighScoreItem = ({key, item ,index}) => {
          {index === 0 && <Item1 className="background"/>}
          {index === 1 && <Item2 className="background"/>}
          {index === 2 && <Item3 className="background"/>}
-         {index !== 0 && index !== 1 && index !== 2 && <Itemdefaut className="background bgDefaut"/>}
+         {index !== 0 && index !== 1 && index !== 2 && <Itemdefaut className="background"/>}
             <div className="rank">
                {index+1 <= 3 ? `#${index + 1}` : ""}
             </div>

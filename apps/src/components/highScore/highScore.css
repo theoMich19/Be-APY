@@ -44,10 +44,6 @@ span{
     z-index: 0; 
     
 }
-.bgDefaut {
-    background-color: #5BC5ED ;
-    border-radius: 10px
-}
 
 .infoItem{
     z-index: 1;
