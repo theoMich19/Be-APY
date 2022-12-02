@@ -1,11 +1,10 @@
 :root{
-  --purple: #544293
+  --purple: #544293;
+  --yellow: #FECA21;
+  --purpleButtonPass: #AF97DF;
+  --pinkButtonAbandon: #E83B6F;
+  --greenButtonValider: #41AF6B;
 }
-
-
-
-
-
 
 .App {
   text-align: center;
@@ -43,4 +42,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.screen {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
 }

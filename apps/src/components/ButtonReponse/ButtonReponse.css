@@ -1,0 +1,10 @@
+.buttonQuestionReponse{
+    background-color: var(--yellow);
+    border: hidden;
+    padding: 0.5em;
+    font-weight: bold;
+    font-family: Mulish;
+    width: 30em;
+    height: 5em;
+    margin: 1.5em;
+}
