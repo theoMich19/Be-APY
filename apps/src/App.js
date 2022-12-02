@@ -4,13 +4,14 @@ import {HomePage} from './routes/HomePage.js';
 import {DashBoardPage} from './routes/DashBoardPage.js';
 import {InformPage} from './routes/InformPage.js';
 import {HighScoresPage} from './routes/HighScoresPage.js';
+import QuestionPage from './components/QuestionPage/QuestionPage.js'
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<QuestionPage />} />
             <Route path="/InformPage/" element={<InformPage />} />
             <Route path="/DashBoardPage/" element={<DashBoardPage />} />
             <Route path="/HighScoresPage/" element={<HighScoresPage />} />
