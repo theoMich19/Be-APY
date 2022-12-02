@@ -1,0 +1,41 @@
+.highScorePage{
+    height: 100%;
+    background-color: var(--purple);
+}
+
+.itemHightScoreAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.itemIndice{
+    
+}
+
+.itemInfo {
+    background-color: var(--purple);
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}

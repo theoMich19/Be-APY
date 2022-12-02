@@ -1,14 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
-import {HomePage} from './components/HomePage.js';
-import {DashBoardPage} from './components/DashBoardPage.js';
-import {InformPage} from './components/InformPage.js';
-import {HighScoresPage} from './components/HighScoresPage.js';
+import {HomePage} from './routes/HomePage.js';
+import {DashBoardPage} from './routes/DashBoardPage.js';
+import {InformPage} from './routes/InformPage.js';
+import {HighScoresPage} from './routes/HighScoresPage.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world !</h1>
       <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage />} />
