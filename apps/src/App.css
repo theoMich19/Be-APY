@@ -1,3 +1,8 @@
+:root{
+  --yellow: #FECA21;
+  --purple: #544293;
+}
+
 .App {
   text-align: center;
 }
