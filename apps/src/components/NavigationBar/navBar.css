@@ -3,14 +3,16 @@
     background-color: #3B2E67;
     min-height: 100vh;
     animation-name: close;
-    animation-duration: 4s;
+    animation-duration: 0.2s;
 }
 
 @keyframes close {
-    40% { transform: translate(0, -30px); -webkit-transform: translate(0, -30px); -moz-transform: translate(0, -30px); -ms-transform: translate(0, -30px); -o-transform: translate(0, -30px); }
-    50% { transform: translate(0, 0); -webkit-transform: translate(0, 0); -moz-transform: translate(0, 0); -ms-transform: translate(0, 0); -o-transform: translate(0, 0); }
-    60% { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -moz-transform: translate(0, -15px); -ms-transform: translate(0, -15px); -o-transform: translate(0, -15px); }
-    80% { transform: translate(0, 0); -webkit-transform: translate(0, 0); -moz-transform: translate(0, 0); -ms-transform: translate(0, 0); -o-transform: translate(0, 0); }
+    0% { transform: translate(-300px, 0); -webkit-transform: translate(-300px, 0); -moz-transform: translate(-300px, 0); -ms-transform: translate(-300px, 0); -o-transform: translate(-300px, 0); }
+    20% { transform: translate(-250px, 0); -webkit-transform: translate(-250px, 0); -moz-transform: translate(-250px, 0); -ms-transform: translate(-250px, 0); -o-transform: translate(-250px, 0); }
+    40% { transform: translate(-200px, 0); -webkit-transform: translate(-200px, 0); -moz-transform: translate(-200px, 0); -ms-transform: translate(-200px, 0); -o-transform: translate(-200px, 0); }
+    60% { transform: translate(-150px, 0); -webkit-transform: translate(-150px, 0); -moz-transform: translate(-150px, 0); -ms-transform: translate(-150px, 0); -o-transform: translate(-150px, 0); }
+    80% { transform: translate(-100px, 0); -webkit-transform: translate(-100px, 0); -moz-transform: translate(-100px, 0); -ms-transform: translate(-100px, 0); -o-transform: translate(-100px, 0); }
+    100% { transform: translate(0, 0); -webkit-transform: translate(0, 0); -moz-transform: translate(0, 0); -ms-transform: translate(0, 0); -o-transform: translate(0, 0); }
 }
 
 .navBar img{
@@ -43,4 +45,10 @@ button {
 
 .dalt {
     margin-bottom: 5em;
+}
+
+.buttons a{
+    text-decoration-line: none;
+    color: white;
+    -moz-text-decoration-line: none;
 }
