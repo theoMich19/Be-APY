@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
-import {HomePage} from './components/HomePage.js';
+import {HomePage} from './components/HomePage/HomePage.js';
 import {DashBoardPage} from './components/DashBoardPage.js';
 import {InformPage} from './components/InformPage.js';
 import {HighScoresPage} from './components/HighScoresPage.js';
@@ -8,7 +8,6 @@ import {HighScoresPage} from './components/HighScoresPage.js';
 function App() {
   return (
     <div className="App">
-      <h1>Hello world !</h1>
       <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage />} />
