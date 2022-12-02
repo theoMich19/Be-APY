@@ -8,6 +8,7 @@ import {CardPageConception} from './routes/CardPageConception.js';
 import {CardPageContraception} from './routes/CardPageContraception.js';
 import {CardPageCorps} from './routes/CardPageCorps.js';
 import {CardPageInfections} from './routes/CardPageInfections.js';
+import  {Quizz} from './routes/Quizz.js'
 
 function App() {  
   return (
@@ -17,16 +18,13 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/InformPage/" element={<InformPage />} />
             <Route path="/DashBoardPage/" element={<DashBoardPage />} />
-<<<<<<< HEAD
             <Route path="/HighScoresPage/" element={<HighScoresPage />} />
-
             <Route path="/CardPageConception/" element={<CardPageConception />} />
             <Route path="/CardPageContraception/" element={<CardPageContraception />} />
             <Route path="/CardPageCorps/" element={<CardPageCorps />} />
             <Route path="/CardPageInfections/" element={<CardPageInfections />} />
-=======
             <Route path="/HighScores/" element={<HighScoresPage />} />
->>>>>>> 7546313e647d89979a74065ec45673ad4ca3fde5
+            <Route path="/Quizz/" element={<Quizz />} />
           </Routes>
         </BrowserRouter>
     </div>

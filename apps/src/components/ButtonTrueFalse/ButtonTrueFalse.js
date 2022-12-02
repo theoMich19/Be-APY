@@ -1,10 +1,14 @@
 import "./ButtonTrueFalse.css"
 
-const ButtonTrueFalse = () => {
+const ButtonTrueFalse = ({sendReponse}) => {
     return (
        <div>
-           <button className="buttonTrueFalse">Vrai</button>
-           <button className="buttonTrueFalse">Faux</button>
+           <button className="buttonTrueFalse" onClick={() => {
+            sendReponse(true)
+           }}>Vrai</button>
+           <button className="buttonTrueFalse" onClick={() => {
+            sendReponse(false)
+           }}>Faux</button>
        </div>
     )
    

@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom';
+
 const BtnHomepage = () => {
     return (
-       <a href="google.com" className="btnHomePage">
-           JOUER
-       </a>
+        <div className="btnHomePage">
+            <Link to="/Quizz">JOUER</Link>
+        </div>
     )
+}
+
    
-   }
-   
-   
-   export default BtnHomepage
+export default BtnHomepage

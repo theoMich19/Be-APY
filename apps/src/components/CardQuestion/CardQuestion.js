@@ -1,9 +1,10 @@
 import "./CardQuestion.css"
 
-const Card = () => {
+const Card = (props) => {
     return (
-        <div class="Rectangle">
+        <div className="Rectangle">
             <h1>Question ?</h1>
+            {props.question}
         </div>
     )
    
