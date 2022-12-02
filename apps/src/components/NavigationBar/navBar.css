@@ -1,0 +1,32 @@
+.navBar {
+    display: flex;
+    width: 20em;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #3B2E67;
+    height: 52em;
+}
+
+button {
+    width: 10em;
+    height: 4em;
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: white
+}
+
+.access {
+    color: yellow;
+    font-size: 2em;
+}
+
+.closeBtn {
+    flex: none;
+    margin-left: 3em;
+    animation-duration: 2s;
+}
+
+.dalt {
+    margin-bottom: 5em;
+}

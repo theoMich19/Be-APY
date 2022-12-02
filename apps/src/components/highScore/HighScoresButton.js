@@ -7,5 +7,4 @@ const HighScoresButton = () => {
    
    }
    
-   
-   export default HighScoreButton
+export default HighScoresButton
