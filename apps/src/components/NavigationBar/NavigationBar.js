@@ -1,5 +1,5 @@
 import './navBar.css'
-import close from '../HomePage/close.png'
+import close from '../../assets/images/close.png'
 
 export default function NavigationBar(props) {
 
