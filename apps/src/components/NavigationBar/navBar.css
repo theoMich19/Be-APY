@@ -6,9 +6,6 @@
     animation-duration: 4s;
 }
 
-<<<<<<< HEAD
-a {
-=======
 @keyframes close {
     40% { transform: translate(0, -30px); -webkit-transform: translate(0, -30px); -moz-transform: translate(0, -30px); -ms-transform: translate(0, -30px); -o-transform: translate(0, -30px); }
     50% { transform: translate(0, 0); -webkit-transform: translate(0, 0); -moz-transform: translate(0, 0); -ms-transform: translate(0, 0); -o-transform: translate(0, 0); }
@@ -20,7 +17,6 @@ a {
     cursor: pointer;
 }
 button {
->>>>>>> 7546313e647d89979a74065ec45673ad4ca3fde5
     width: 10em;
     height: 4em;
     font-size: 2em;
