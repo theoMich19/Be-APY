@@ -7,7 +7,7 @@ export default function NavigationBar(props) {
     return (
             <div className="navBar">
                 <button className='closeBtn'><img src={close} alt="menu burger" onClick={() => props.isVisible(false)} /></button>
-                <div className="">
+                <div className="buttons">
                     <Link to="/">Accueil</Link>
                     <br /><br />
                     <Link to="/InformPage">Se renseigner</Link>

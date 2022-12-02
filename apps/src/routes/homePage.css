@@ -49,9 +49,17 @@
     position: absolute;
     top: 0;
     left: 0;
+<<<<<<< HEAD
+    -ms-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+=======
     background: none;
     border: none;
+>>>>>>> bd3a2fb14e7436625ce8c0e6856c980bdce51254
 }
+
 
 .menu img{
     cursor: pointer;
