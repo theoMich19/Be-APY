@@ -4,34 +4,27 @@
         "type":"choix4",
         "question":"Que faire en cas d'oubli de pilule ?",
         "trueRep":["Si oublie dans les 12h, pas de risque de grossesse + prendre immédiatement la prendre"],
-        "falseRep1":"",
-        "falseRep2":"",
-        "falseRep3":""
+        "falseRep":["","",""]
     },
     {
         "id":2,
         "type":"choix4",
         "question":"Pourquoi et comment parler contraception avec votre partenaire ?",
         "trueRep":["La manière de se protéger d'une grossesse non prévue ou d'une IST concerne autant les hommes que les femmes. Choisir, puis utiliser une contraception sur le long terme est donc une responsabilité qui repose sur les deux personnes du couple."],
-        "falseRep1":"",
-        "falseRep2":"",
-        "falseRep3":""
+        "falseRep":["","",""]
     },
     {
         "id":3,
         "type":"input",
         "question":"Premiers rapports sexuels : quelle contraception ?",
-        "trueRep":["preservatifs","capotes"],
-        "falseRep1":"",
-        "falseRep2":"",
-        "falseRep3":""
+        "trueRep":["preservatifs","capotes"]
     },
     {
         "id":4,
         "type":"choix2",
         "question":"Pouvez-vous tomber enceinte sous contraception ?",
         "trueRep":["true"],
-        "falseRep1":"false"
+        "falseRep":[""]
     },
     {
         "id":5,
@@ -43,7 +36,8 @@
         "id":6,
         "type":"choix4",
         "question":"Contraception d’urgence : quels sont les délais ?",
-        "trueRep":["72h","120h"]
+        "trueRep":["72h","120h"],
+        "falseRep":["","",""]
     },
     {
         "id":7,
@@ -55,18 +49,21 @@
         "id":8,
         "type":"choix4",
         "question":"Qu’est-ce que la contraception dite « naturelle » ?",
-        "trueRep":["retrait","calendrier (identifier la periode fertile)"]
+        "trueRep":["retrait","calendrier (identifier la periode fertile)"],
+        "falseRep":["","",""]
     },
     {
         "id":9,
         "type":"choix2",
         "question":"La contraception d’urgence : ça rend stérile ?",
-        "trueRep":["false"]
+        "trueRep":["false"],
+        "falseRep":[""]
     },
     {
         "id":10,
         "type":"choix4",
         "question":"Quelle contraception choisir si vous êtes mineur ?",
-        "trueRep":["preservatifs"]
+        "trueRep":["preservatifs"],
+        "falseRep":["","",""]
     }
 ]
