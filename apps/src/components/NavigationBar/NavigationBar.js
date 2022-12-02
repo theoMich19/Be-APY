@@ -9,7 +9,7 @@ export default function NavigationBar(props) {
                 <div className="navBar">
                     <button>Se renseigner</button>
                     <button>Statistiques</button>
-                <div>
+                <div className='dalt'>
                     <p className='access'>ACCESSIBILITÉ</p>
                     <button>Daltonien</button>
                 </div>

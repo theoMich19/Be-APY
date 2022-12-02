@@ -22,5 +22,11 @@ button {
 }
 
 .closeBtn {
-    align-self: flex-end;
+    flex: none;
+    margin-left: 3em;
+    animation-duration: 2s;
+}
+
+.dalt {
+    margin-bottom: 5em;
 }

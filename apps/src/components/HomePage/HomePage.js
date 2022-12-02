@@ -11,14 +11,7 @@ export const HomePage = () => {
 
     return (
        <div>
-        <button className="menu"><img src={menu} alt="menu burger" onClick={() => {
-            if (isVisible) {
-                setIsVisible(false)
-            }
-            else {
-                setIsVisible(true)
-            }
-        }} /></button>
+        <button className="menu"><img src={menu} alt="menu burger" onClick={() => setIsVisible(true)} /></button>
         { isVisible ? <NavigationBar className="navBar" isVisible={handlerIsVisible}></NavigationBar> : <view></view>}
        </div>
     )
