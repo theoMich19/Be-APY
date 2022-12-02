@@ -1,7 +1,9 @@
+import Card from "./CardQuestion/CardQuestion"
+
 export const HomePage = () => {
     return (
        <div>
-           <h1>HomePage</h1>
+           <Card />
        </div>
     )
    

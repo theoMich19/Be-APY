@@ -8,7 +8,6 @@ import {HighScoresPage} from './components/HighScoresPage.js';
 function App() {
   return (
     <div className="App">
-      <h1>Hello world !</h1>
       <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage />} />
