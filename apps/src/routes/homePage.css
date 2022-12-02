@@ -50,6 +50,10 @@
     left: 0;
 }
 
+.menu img{
+    cursor: pointer;
+}
+
 .navBar{
     position: absolute;
     top: 0;
