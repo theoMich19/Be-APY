@@ -8,7 +8,7 @@ const tab = [{"id":1,"nickname":"test","score":123,"last_connected":"2022-12-02T
 export const HighScoresPage = () => {
     return (
        <div className="highScorePage">
-           <h1>HighScoresPage</h1>
+           <h1>Meilleurs scores</h1>
            <div className="itemHightScoreAll">
                 {tab.map((item, index) => (
                     <HighScoreItem key={item.id} item={item} index={index}/>

@@ -1,0 +1,52 @@
+body{
+    background-color: #544293;
+  }
+  
+  .rowDashboard {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+  }
+  
+  .columnNav {
+    text-align: left;
+    flex: 25%;
+  }
+  
+  .columnNav ul{
+    list-style-type: none;
+  }
+  
+  .columnNav li{
+    background-color: #e83b6f;
+  }
+  
+  .columnNav li:hover{
+    background-color: #df0244;
+  }
+  .columnNav li:hover button{
+    background-color: #df0244;
+  }
+  .columnNav button:hover{
+    background-color: #df0244;
+  }
+  .columnNav button{
+    background-color: #e83b6f;
+    width: 100%;
+    height: initial;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    background-color: #e83b6f;
+    font-size: 2em;
+    padding: 1em;
+    text-align: left;
+    color: white;
+  }
+  
+  
+  .columnGraph {
+    flex: 75%;
+    text-align: center;
+  }

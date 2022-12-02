@@ -18,9 +18,9 @@ export const HomePage = () => {
         { isVisible ? <NavigationBar className="navBar" isVisible={handlerIsVisible}></NavigationBar> : <div> <button className="menu">
             <img src={Menu} alt="menu burger" onClick={() => setIsVisible(true)} />
          </button></div>}
-        <h1 className='h1'>Be'APY</h1>
+        <h1 className='titleApps'>Be'APY</h1>
         <p className='text'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at laoreet nulla, ut sollicitudin nulla. Vivamus eu interdum dolor. Nam eleifend mollis faucibus. Nulla id mi eu risus consectetur faucibus a et tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ultrices velit risus, id dapibus mauris pharetra eu.
+        Dans le cadre de la nuit de l’Info la DReAM Team vous propose Be’Apy. Nombres d’entre nous sont trop peu informés vis-à-vis des infections sexuellement transmissibles (IST) et de la sexualité en global. Be’Apy est un serious game qui vous permettra d’acquérir des connaissances en répondant à des séries quizz. Montez progressivement les niveaux, faites évoluez vos connaissances jusqu’à atteindre le sommet de notre leaderboard global, vous pourrez alors comparer votre score avec les 6 meilleurs utilisateurs !
         </p>
         <img src={Mascotte} className="imgMascotte" alt=""/>
            <BtnHomepage/>

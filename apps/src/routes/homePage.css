@@ -23,7 +23,7 @@
     background-size: cover;
 }
 
-.h1{
+.titleApps{
     padding-top: 10vh;
     font-size: 80px;
 }
@@ -32,8 +32,8 @@
     z-index: 1;
     max-width: 70vw;
     color: white;
-    font-size: 18px;
-    margin: 15vh auto;
+    font-size: 28px;
+    margin: 2em auto;
     position: relative;
 }
 
@@ -51,6 +51,10 @@
     left: 0;
     background: none;
     border: none;
+}
+
+.menu img{
+    cursor: pointer;
 }
 
 .navBar{
