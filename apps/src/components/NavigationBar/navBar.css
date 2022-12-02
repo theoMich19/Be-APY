@@ -2,8 +2,9 @@
     width: 20em;
     background-color: #3B2E67;
     min-height: 100vh;
-    
 }
+
+
 
 .navBar img{
     cursor: pointer;
@@ -31,3 +32,4 @@ button {
 .dalt {
     margin-bottom: 5em;
 }
+
