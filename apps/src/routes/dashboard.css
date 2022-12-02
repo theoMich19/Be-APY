@@ -6,6 +6,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 5em;
   }
   
   .columnNav {
@@ -19,10 +20,12 @@ body{
   
   .columnNav li{
     background-color: #e83b6f;
-  
   }
   
   .columnNav li:hover{
+    background-color: #df0244;
+  }
+  .columnNav li:hover button{
     background-color: #df0244;
   }
   .columnNav button:hover{
@@ -30,14 +33,14 @@ body{
   }
   .columnNav button{
     background-color: #e83b6f;
-  
+    width: 100%;
+    height: initial;
     border-radius: 0;
     border: none;
     cursor: pointer;
     background-color: #e83b6f;
     font-size: 2em;
-    padding: 5px;
-    margin: 5px;
+    padding: 1em;
     text-align: left;
     color: white;
   }

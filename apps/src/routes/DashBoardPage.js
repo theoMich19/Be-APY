@@ -1,12 +1,23 @@
 import Plot from 'react-plotly.js';
 import { useState } from "react"
-import "../dashboard/dashboard.css"
+import "./dashboard.css"
+import Menu from '../img/menu.png'
+import NavigationBar from '../components/NavigationBar/NavigationBar'
 
 export const DashBoardPage = () => {
     const [graph, setGraph] = useState(0)
 
+    const [isVisible, setIsVisible] = useState(false);
+
+    const handlerIsVisible = (event) => {
+        setIsVisible(event)
+    };
+
     return (
         <div>
+            { isVisible ? <NavigationBar className="navBar" isVisible={handlerIsVisible}></NavigationBar> : <div> <button className="menu">
+            <img src={Menu} alt="menu burger" onClick={() => setIsVisible(true)} />
+         </button></div>}
             <div className="rowDashboard">
                 <div className="columnNav">
                     <ul>
