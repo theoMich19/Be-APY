@@ -8,14 +8,15 @@ export default function NavigationBar(props) {
             <div className="navBar">
                 <button className='closeBtn'><img src={close} alt="menu burger" onClick={() => props.isVisible(false)} /></button>
                 <div className="">
+                    <Link to="/">Accueil</Link>
+                    <br /><br />
                     <Link to="/InformPage">Se renseigner</Link>
-                    <br></br>
-                    <br></br>
+                    <br /><br />
                     <Link to="/DashBoardPage">Statistiques</Link>
-                <div className='dalt'>
-                    <p className='access'>ACCESSIBILITÉ</p>
-                    <Link to="/">Colorimétrie</Link>
-                </div>
+                    <div className='dalt'>
+                        <p className='access'>ACCESSIBILITÉ</p>
+                        <Link to="/">Colorimétrie</Link>
+                    </div>
                 </div>
             </div>
         )
