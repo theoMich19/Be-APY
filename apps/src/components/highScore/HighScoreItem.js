@@ -1,6 +1,7 @@
 import {ReactComponent as Item1} from './item1.svg';
 import {ReactComponent as Item2} from './item2.svg';
 import {ReactComponent as Item3} from './item3.svg';
+import {ReactComponent as Itemdefaut} from './item4.svg';
 import React from 'react';
 
 
@@ -20,7 +21,7 @@ const HighScoreItem = ({key, item ,index}) => {
          {index === 0 && <Item1 className="background"/>}
          {index === 1 && <Item2 className="background"/>}
          {index === 2 && <Item3 className="background"/>}
-         {index !== 0 && index !== 1 && index !== 2 && <div className="background bgDefaut"/>}
+         {index !== 0 && index !== 1 && index !== 2 && <Itemdefaut className="background bgDefaut"/>}
             <div className="rank">
                {index+1 <= 3 ? `#${index + 1}` : ""}
             </div>
