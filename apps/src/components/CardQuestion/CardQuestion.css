@@ -1,0 +1,8 @@
+.Rectangle{
+    width: 50%;
+    height: 10em;
+    background-color: var(--yellow);
+    border-radius: 5px;
+    margin: auto;
+    vertical-align: middle; 
+}

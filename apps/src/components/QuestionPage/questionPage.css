@@ -1,0 +1,17 @@
+.questionPage {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.time {
+    font-size: 2em;
+    font-weight: bold;
+}
