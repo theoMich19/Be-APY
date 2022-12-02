@@ -13,9 +13,9 @@ export const InformPage = () => {
     
     return (
        <div>
-        { isVisible ? <NavigationBar className="navBar" isVisible={handlerIsVisible}></NavigationBar> : <view> <button className="menu">
+        { isVisible ? <NavigationBar className="navBar" isVisible={handlerIsVisible}></NavigationBar> : <div> <button className="menu">
             <img src={Menu} alt="menu burger" onClick={() => setIsVisible(true)} />
-         </button></view>}
+         </button></div>}
 
          <h1 className='h1Informer'>S'informer</h1>
          <div className='CategoryColumn'>

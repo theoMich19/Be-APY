@@ -33,3 +33,28 @@
     background-color: #FECA21;
     margin: 15px;
 }
+
+.images-wrap{
+    height: 70vh;
+}
+
+.each-slide-effect, .active{
+    width: 80vw !important;
+    margin: auto;
+}
+
+.images-wrap .active{
+    background: white;
+    border-radius: 20px;
+}
+
+.textCard{
+    width: 70vw;
+    margin: auto;
+}
+
+.cardDiv{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
