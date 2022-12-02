@@ -1,0 +1,15 @@
+:root{
+    --yellow: "#FECA21";
+}
+
+.btnHomePage{
+    background: var(--yellow);
+    text-decoration: none;
+}
+
+.screen{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-size: cover;
+}
