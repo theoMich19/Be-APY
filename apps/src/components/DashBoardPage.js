@@ -1,6 +1,6 @@
 import Plot from 'react-plotly.js';
 import { useState } from "react"
-import "../dashboard/dashboard"
+import "../dashboard/dashboard.css"
 
 export const DashBoardPage = () => {
     const [graph, setGraph] = useState(0)
