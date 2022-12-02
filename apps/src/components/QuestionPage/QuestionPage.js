@@ -9,7 +9,7 @@ import ButtonReponse from "../ButtonReponse/ButtonReponse";
 import ButtonTrueFalse from "../ButtonTrueFalse/ButtonTrueFalse";
 
 export default function QuestionPage() {
-    const [typeQuestion, setTypeQuestion] = useState("trueFalse");
+    const [typeQuestion, setTypeQuestion] = useState("input");
 
     return (
             <div className="questionPage">
